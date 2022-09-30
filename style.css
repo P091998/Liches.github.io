@@ -1,0 +1,104 @@
+body{
+    background-image: url('bg.jpg');
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#text{
+    text-align: center;
+    color: Brown; 
+    font-weight: bolder; 
+    font-size: larger; 
+    height: 40px; 
+    background-color: rgb(62, 11, 11);
+}
+
+#registers{
+    text-align: center; 
+    margin-top: 200px;
+}
+
+#register{
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(241, 107, 107);
+    color: rgb(94, 5, 94);
+    font-weight: bold;
+    border-color:  rgb(241, 107, 107);
+}
+
+#registers h1{
+    color: white;
+}
+
+#form{
+    text-align: center;
+    margin-top: 160px;
+    display: none;
+}
+
+#form input{
+    height: 40px;
+    width: 200px;
+    margin-top: 5px;
+    background-color: bisque;
+}
+
+#submit{
+    height: 60px;
+    width: 200px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: rgb(241, 107, 107);
+    color: rgb(94, 5, 94);
+    font-weight: bold;
+    border-color:  rgb(241, 107, 107);
+}
+
+#submit:hover{
+    cursor: pointer;
+    background-color: rgb(238, 74, 74);
+    color: rgb(121, 4, 121);
+}
+
+#reload{
+    height: 30px;
+    width: 70px;
+    margin-left: 1400px; 
+    margin-top: 230px; 
+    border-radius: 10px;
+    background-color: rgb(241, 107, 107);
+    color: rgb(94, 5, 94);
+    font-weight: bold;
+    border-color:  rgb(241, 107, 107);
+}
+
+#reload:hover{
+    cursor: pointer;
+    background-color: rgb(238, 74, 74);
+    color: rgb(121, 4, 121);
+}
+
+#buttons{
+    text-align: center;
+    margin-top: 100px;
+    display: block;
+}
+
+#button{
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(241, 107, 107);
+    color: rgb(94, 5, 94);
+    font-weight: bold;
+    border-color:  rgb(241, 107, 107);
+}
+
+#button:hover{
+    cursor: pointer;
+    background-color: rgb(238, 74, 74);
+    color: rgb(121, 4, 121);
+}
